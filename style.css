@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --bgbody-blue: hsl(217, 54%, 11%);
+    --bgcard-blue: hsl(216, 50%, 16%);
+    --line-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--bgbody-blue);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    /*não é o melhor*/
+    border-radius: 10px;
+    background-color: var(--bgcard-blue);
+    padding: 10px;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 24px;
+}
+
+.equi {
+    width: 260px;
+    height: 260px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+.textinho {
+    color: var(--soft-blue);
+}
+
+.infos {
+    display: flex;
+}
+
+.pr {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price {
+   
+    color: var(--cyan);
+}
+
+.timeleft {
+   gap: 10px;
+    color: var(--soft-blue);
+}
+
+.line {
+    width: 270px;
+    height: 1px;
+    background-color: var(--line-blue);
+}
+
+.crea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pic {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.creation {
+    font-size: 16px;
+    color: var(--soft-blue);
+    
+}
+.ju {
+    color: var(--white);
+}
